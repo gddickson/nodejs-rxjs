@@ -1,0 +1,1534 @@
+9 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 9,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+10 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 10,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+11 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 11,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+12 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 12,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+13 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 13,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+14 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 14,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+15 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 15,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+16 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 16,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+17 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 17,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+18 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 18,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+19 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 19,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+20 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 20,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+21 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 21,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+22 TCPWRAP 4 TCP {
+  reading: false,
+  onconnection: null,
+  [Symbol(owner_symbol)]: null
+}
+23 HTTPINCOMINGMESSAGE 22 HTTPServerAsyncResource {
+  type: 'HTTPINCOMINGMESSAGE',
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] {
+      end: [Function: onReadableStreamEnd],
+      timeout: [Function: socketOnTimeout]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::3000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 4
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::3000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 4
+    },
+    [Symbol(async_id_symbol)]: 22,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  }
+}
+24 TickObject 22 {
+  callback: [Function: resume_],
+  args: [
+    Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      [Symbol(async_id_symbol)]: 22,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: true,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    }
+  ],
+  [Symbol(async_id_symbol)]: 24,
+  [Symbol(trigger_async_id_symbol)]: 22
+}
+25 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 25,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+26 Timeout 23 <ref *1> Timeout {
+  _idleTimeout: 954,
+  _idlePrev: [Circular *1],
+  _idleNext: [Circular *1],
+  _idleStart: null,
+  _onTimeout: [Function: resetCache],
+  _timerArgs: undefined,
+  _repeat: null,
+  _destroyed: false,
+  [Symbol(refed)]: false,
+  [Symbol(kHasPrimitive)]: false,
+  [Symbol(asyncId)]: 26,
+  [Symbol(triggerId)]: 23
+}
+27 TickObject 23 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: bound onFinish],
+      stream: [Socket],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 27,
+  [Symbol(trigger_async_id_symbol)]: 23
+}
+28 TickObject 23 {
+  callback: [Function: emitReadable_],
+  args: [
+    IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '/timeout',
+      method: 'GET',
+      statusCode: null,
+      statusMessage: null,
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      next: [Function: next],
+      baseUrl: '',
+      originalUrl: '/timeout',
+      _parsedUrl: [Url],
+      params: {},
+      query: {},
+      res: [ServerResponse],
+      route: [Route],
+      [Symbol(kCapture)]: false,
+      [Symbol(RequestTimeout)]: undefined
+    }
+  ],
+  [Symbol(async_id_symbol)]: 28,
+  [Symbol(trigger_async_id_symbol)]: 23
+}
+29 TickObject 27 {
+  callback: [Function: resume_],
+  args: [
+    IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '/timeout',
+      method: 'GET',
+      statusCode: null,
+      statusMessage: null,
+      client: [Socket],
+      _consuming: false,
+      _dumped: true,
+      next: [Function: next],
+      baseUrl: '',
+      originalUrl: '/timeout',
+      _parsedUrl: [Url],
+      params: {},
+      query: {},
+      res: [ServerResponse],
+      route: [Route],
+      [Symbol(kCapture)]: false,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: true,
+      readableListening: false,
+      resumeScheduled: true,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    }
+  ],
+  [Symbol(async_id_symbol)]: 29,
+  [Symbol(trigger_async_id_symbol)]: 27
+}
+30 TickObject 27 {
+  callback: [Function: emitCloseNT],
+  args: [
+    ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: true,
+      _removedTE: true,
+      _contentLength: 0,
+      _hasBody: false,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: null,
+      _header: 'HTTP/1.1 304 Not Modified\r\n' +
+        'X-Powered-By: Express\r\n' +
+        'ETag: W/"e-AUBrE/8F1JcblMcjJewBqXOJTyc"\r\n' +
+        'Date: Sun, 03 Jan 2021 21:46:46 GMT\r\n' +
+        'Connection: keep-alive\r\n' +
+        'Keep-Alive: timeout=5\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 5000,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [IncomingMessage],
+      locals: [Object: null prototype] {},
+      statusCode: 304,
+      statusMessage: 'Not Modified',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 30,
+  [Symbol(trigger_async_id_symbol)]: 27
+}
+31 Timeout 27 <ref *1> Timeout {
+  _idleTimeout: 5000,
+  _idlePrev: [Circular *1],
+  _idleNext: [Circular *1],
+  _idleStart: null,
+  _onTimeout: [Function: bound ],
+  _timerArgs: undefined,
+  _repeat: null,
+  _destroyed: false,
+  [Symbol(refed)]: false,
+  [Symbol(kHasPrimitive)]: false,
+  [Symbol(asyncId)]: 31,
+  [Symbol(triggerId)]: 27
+}
+32 TickObject 28 {
+  callback: [Function: endReadableNT],
+  args: [
+    ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: true,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '/timeout',
+      method: 'GET',
+      statusCode: null,
+      statusMessage: null,
+      client: [Socket],
+      _consuming: false,
+      _dumped: true,
+      next: [Function: next],
+      baseUrl: '',
+      originalUrl: '/timeout',
+      _parsedUrl: [Url],
+      params: {},
+      query: {},
+      res: [ServerResponse],
+      route: [Route],
+      [Symbol(kCapture)]: false,
+      [Symbol(RequestTimeout)]: undefined
+    }
+  ],
+  [Symbol(async_id_symbol)]: 32,
+  [Symbol(trigger_async_id_symbol)]: 28
+}
+33 TickObject 29 {
+  callback: [Function: endReadableNT],
+  args: [
+    ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: true,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '/timeout',
+      method: 'GET',
+      statusCode: null,
+      statusMessage: null,
+      client: [Socket],
+      _consuming: false,
+      _dumped: true,
+      next: [Function: next],
+      baseUrl: '',
+      originalUrl: '/timeout',
+      _parsedUrl: [Url],
+      params: {},
+      query: {},
+      res: [ServerResponse],
+      route: [Route],
+      [Symbol(kCapture)]: false,
+      [Symbol(RequestTimeout)]: undefined
+    }
+  ],
+  [Symbol(async_id_symbol)]: 33,
+  [Symbol(trigger_async_id_symbol)]: 29
+}
+34 TickObject 29 {
+  callback: [Function: endReadableNT],
+  args: [
+    ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '/timeout',
+      method: 'GET',
+      statusCode: null,
+      statusMessage: null,
+      client: [Socket],
+      _consuming: false,
+      _dumped: true,
+      next: [Function: next],
+      baseUrl: '',
+      originalUrl: '/timeout',
+      _parsedUrl: [Url],
+      params: {},
+      query: {},
+      res: [ServerResponse],
+      route: [Route],
+      [Symbol(kCapture)]: false,
+      [Symbol(RequestTimeout)]: undefined
+    }
+  ],
+  [Symbol(async_id_symbol)]: 34,
+  [Symbol(trigger_async_id_symbol)]: 29
+}
+35 TickObject 29 {
+  callback: [Function: endReadableNT],
+  args: [
+    ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '/timeout',
+      method: 'GET',
+      statusCode: null,
+      statusMessage: null,
+      client: [Socket],
+      _consuming: false,
+      _dumped: true,
+      next: [Function: next],
+      baseUrl: '',
+      originalUrl: '/timeout',
+      _parsedUrl: [Url],
+      params: {},
+      query: {},
+      res: [ServerResponse],
+      route: [Route],
+      [Symbol(kCapture)]: false,
+      [Symbol(RequestTimeout)]: undefined
+    }
+  ],
+  [Symbol(async_id_symbol)]: 35,
+  [Symbol(trigger_async_id_symbol)]: 29
+}
+36 TCPWRAP 4 TCP {
+  reading: false,
+  onconnection: null,
+  [Symbol(owner_symbol)]: null
+}
+37 HTTPINCOMINGMESSAGE 36 HTTPServerAsyncResource {
+  type: 'HTTPINCOMINGMESSAGE',
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] {
+      end: [Function: onReadableStreamEnd],
+      timeout: [Function: socketOnTimeout]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 2,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::3000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 4
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 2,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::3000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 4
+    },
+    [Symbol(async_id_symbol)]: 36,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  }
+}
+38 TickObject 36 {
+  callback: [Function: resume_],
+  args: [
+    Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      [Symbol(async_id_symbol)]: 36,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: true,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    }
+  ],
+  [Symbol(async_id_symbol)]: 38,
+  [Symbol(trigger_async_id_symbol)]: 36
+}
+39 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 39,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+40 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 40,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+41 TickObject 31 {
+  callback: [Function: emitCloseNT],
+  args: [
+    Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: null,
+      timeout: 5000,
+      [Symbol(async_id_symbol)]: 22,
+      [Symbol(kHandle)]: null,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 33101,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 31,
+        [Symbol(triggerId)]: 27
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 724,
+      [Symbol(kBytesWritten)]: 177,
+      [Symbol(RequestTimeout)]: undefined
+    }
+  ],
+  [Symbol(async_id_symbol)]: 41,
+  [Symbol(trigger_async_id_symbol)]: 31
+}
+42 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 42,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+43 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 43,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+44 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 44,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+45 TickObject 36 {
+  callback: [Function: endReadableNT],
+  args: [
+    ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: false,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      [Symbol(async_id_symbol)]: 36,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    }
+  ],
+  [Symbol(async_id_symbol)]: 45,
+  [Symbol(trigger_async_id_symbol)]: 36
+}
+46 TickObject 36 {
+  callback: [Function: endReadableNT],
+  args: [
+    ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: false,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      [Symbol(async_id_symbol)]: 36,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    }
+  ],
+  [Symbol(async_id_symbol)]: 46,
+  [Symbol(trigger_async_id_symbol)]: 36
+}
+47 TickObject 45 {
+  callback: [Function: callFinal],
+  args: [
+    Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      [Symbol(async_id_symbol)]: 36,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: true,
+      needDrain: false,
+      ending: true,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    }
+  ],
+  [Symbol(async_id_symbol)]: 47,
+  [Symbol(trigger_async_id_symbol)]: 45
+}
+48 SHUTDOWNWRAP 36 ShutdownWrap {
+  oncomplete: [Function: afterShutdown],
+  callback: [Function (anonymous)],
+  handle: <ref *1> TCP {
+    reading: true,
+    onconnection: null,
+    _consumed: true,
+    [Symbol(owner_symbol)]: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      [Symbol(async_id_symbol)]: 36,
+      [Symbol(kHandle)]: [Circular *1],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    }
+  }
+}
+49 TickObject 0 {
+  callback: [Function: afterWriteTick],
+  args: [
+    {
+      count: 1,
+      cb: [Function: nop],
+      stream: [WriteStream],
+      state: [WritableState]
+    }
+  ],
+  [Symbol(async_id_symbol)]: 49,
+  [Symbol(trigger_async_id_symbol)]: 0
+}
+50 TickObject 48 {
+  callback: [Function: emitCloseNT],
+  args: [
+    Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      [Symbol(async_id_symbol)]: 36,
+      [Symbol(kHandle)]: null,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    }
+  ],
+  [Symbol(async_id_symbol)]: 50,
+  [Symbol(trigger_async_id_symbol)]: 48
+}

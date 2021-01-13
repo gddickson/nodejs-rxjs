@@ -1,0 +1,1 @@
+exports.HTML_P = '<p></p>';

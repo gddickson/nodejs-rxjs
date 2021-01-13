@@ -1,0 +1,15 @@
+{
+  "name": "sample4",
+  "version": "1.0.0",
+  "description": "demo db access",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Selvyn Wright",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}

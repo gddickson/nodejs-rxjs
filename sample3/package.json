@@ -1,0 +1,14 @@
+{
+  "name": "sample3",
+  "version": "1.0.0",
+  "description": "simple web app using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Selvyn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

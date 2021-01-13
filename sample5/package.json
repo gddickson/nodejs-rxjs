@@ -1,0 +1,11 @@
+{
+  "name": "sample5",
+  "version": "1.0.0",
+  "description": "quick sample app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Selvyn",
+  "license": "ISC"
+}

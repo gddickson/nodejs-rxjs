@@ -1,0 +1,1 @@
+docker run -p 3306:3306 --name mysql-populated -e MYSQL_ROOT_PASSWORD=a@rhhZ46 -d mysql:latest
