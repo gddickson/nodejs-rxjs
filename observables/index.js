@@ -85,6 +85,7 @@ app.get("/of-listen", (req, res, next) =>
     return res.end();
 });
 
+// visit https://www.tektutorialshub.com/angular/using-switchmap-in-angular/ for the code below
 app.get("/switchMap-example-1", (req, res, next) => 
 {
     const srcObservable= of(1,2,3,4)
