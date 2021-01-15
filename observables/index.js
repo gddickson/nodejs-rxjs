@@ -3,7 +3,7 @@ var app = express();
 var fs = require("fs");
 var {Observable, interval, of} = require("rxjs");
 var Rx = require("rx");
-var {map, filter, scan } = require("rxjs/operators");
+var {map, filter, scan, switchMap } = require("rxjs/operators");
 
 var myObservable;
 var ofObservable;
@@ -61,7 +61,9 @@ app.get("/of-example", (req, res, next) =>
 
 app.get("/listen", (req, res, next) => 
 {
-    myObservable.subscribe( (next) => {process.stdout.write(next); },
+    myObservable.subscribe( (next) => {
+        process.stdout.write(next); 
+    },
                             (error) => {process.stdout.write(error); },
                             () => {process.stdout.write("Completed"); },);
     return res.end();
@@ -80,6 +82,23 @@ app.get("/of-listen", (req, res, next) =>
     ofObservable.subscribe( (x) => {process.stdout.write("of: " + x + "\n"); },
                         (error) => {process.stdout.write(error); },
                         () => {process.stdout.write("Completed"); },);
+    return res.end();
+});
+
+app.get("/switchMap-example-1", (req, res, next) => 
+{
+    const srcObservable= of(1,2,3,4)
+    const innerObservable= of('A','B','C','D')
+     
+    srcObservable.pipe(
+      switchMap( val => {
+        console.log('Source value '+val)
+        console.log('starting new observable')
+        return innerObservable
+      })
+    ).subscribe(ret=> {
+        console.log('Recd ' + ret);
+    })
     return res.end();
 });
 
