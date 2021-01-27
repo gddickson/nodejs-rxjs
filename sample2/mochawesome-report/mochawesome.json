@@ -1,0 +1,565 @@
+{
+  "stats": {
+    "suites": 12,
+    "tests": 9,
+    "passes": 4,
+    "pending": 4,
+    "failures": 1,
+    "start": "2021-01-18T23:43:16.320Z",
+    "end": "2021-01-18T23:43:16.399Z",
+    "duration": 79,
+    "testsRegistered": 9,
+    "passPercent": 80,
+    "pendingPercent": 44.44444444444444,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d9fe7c13-68a9-4308-b5ba-6b90d32ad30e",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "adb7c435-7ffa-4332-b680-84f014074f11",
+          "title": "Array",
+          "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+          "file": "\\simple-test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "9f3cb233-fc2f-4724-ac1d-a95e0ef07af9",
+              "title": "#indexOf()",
+              "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+              "file": "\\simple-test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return -1 when the value is not present",
+                  "fullTitle": "Array #indexOf() should return -1 when the value is not present",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "pending",
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": true,
+                  "context": null,
+                  "code": "",
+                  "err": {},
+                  "uuid": "8b9a5e68-2efd-4819-b8c5-0efeaa073b1b",
+                  "parentUUID": "9f3cb233-fc2f-4724-ac1d-a95e0ef07af9",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [],
+              "failures": [],
+              "pending": [
+                "8b9a5e68-2efd-4819-b8c5-0efeaa073b1b"
+              ],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "c9e3e052-f21a-4653-a3f5-97bab8581d5f",
+          "title": "double done()",
+          "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+          "file": "\\simple-test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "done() should only be called once",
+              "fullTitle": "double done() done() should only be called once",
+              "timedOut": false,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "4ece3fb6-2c16-4376-bf66-cc010b4b1fe9",
+              "parentUUID": "c9e3e052-f21a-4653-a3f5-97bab8581d5f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "done() is only called once",
+              "fullTitle": "double done() done() is only called once",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "setImmediate(done);",
+              "err": {},
+              "uuid": "8c0d5279-0864-4081-b040-5e4eb11d770b",
+              "parentUUID": "c9e3e052-f21a-4653-a3f5-97bab8581d5f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8c0d5279-0864-4081-b040-5e4eb11d770b"
+          ],
+          "failures": [],
+          "pending": [
+            "4ece3fb6-2c16-4376-bf66-cc010b4b1fe9"
+          ],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "8f45edee-7628-443b-a4e4-0d0b5bab0b23",
+          "title": "User",
+          "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+          "file": "\\simple-test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "fca7a80d-c70e-434b-b6f2-e23dca545450",
+              "title": "#save()",
+              "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+              "file": "\\simple-test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should save without error",
+                  "fullTitle": "User #save() should save without error",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": null,
+                  "code": "this.retries(3);\nconst data = new Uint8Array(Buffer.from('Hello Node.js'));\nvar user = new User('Luna');\nuser.save(data, function(err) {\n  if (err) done(err);\n  else{\n    assert.fail(\"Forced failure\");\n    done();\n  }\n});",
+                  "err": {
+                    "message": "AssertionError: Forced failure",
+                    "estack": "AssertionError [ERR_ASSERTION]: Forced failure\n    at file:///C:/work/git/nodejs-rxjs/mocha/basics/simple-test.js:59:18\n    at C:\\Users\\selvy\\AppData\\Roaming\\npm\\node_modules\\mochawesome\\node_modules\\graceful-fs\\graceful-fs.js:61:14\n    at FSReqCallback.oncomplete (fs.js:171:23)",
+                    "diff": null
+                  },
+                  "uuid": "f3344461-d186-42c8-a524-2ee6a14c079d",
+                  "parentUUID": "fca7a80d-c70e-434b-b6f2-e23dca545450",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [],
+              "failures": [
+                "f3344461-d186-42c8-a524-2ee6a14c079d"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "7918eee9-3a10-4e12-be14-9b1f2c6f616a",
+              "title": "#save(done)",
+              "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+              "file": "\\simple-test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should save without error",
+                  "fullTitle": "User #save(done) should save without error",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const data = new Uint8Array(Buffer.from('Hello Node.js'));\nvar user = new User('Luna');\nuser.save(data, done);",
+                  "err": {},
+                  "uuid": "2e2d58a6-1ee3-46b9-ac7b-d1904ac6b128",
+                  "parentUUID": "7918eee9-3a10-4e12-be14-9b1f2c6f616a",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "2e2d58a6-1ee3-46b9-ac7b-d1904ac6b128"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "ba7c3dc7-7a0a-40e3-a103-6433f53c02fc",
+              "title": "use async await #save() using async function",
+              "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+              "file": "\\simple-test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should save without error",
+                  "fullTitle": "User use async await #save() using async function should save without error",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const result = async_save();\nresult.then(data => {\n  assert.strictEqual(data, \"file saved\");\n}).then(done, done);",
+                  "err": {},
+                  "uuid": "23995017-339e-4422-908c-8f00ed42774c",
+                  "parentUUID": "ba7c3dc7-7a0a-40e3-a103-6433f53c02fc",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "23995017-339e-4422-908c-8f00ed42774c"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "db3dfd66-5674-4aea-93be-a01fcf5730b8",
+              "title": "use async await #save()",
+              "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+              "file": "\\simple-test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "with the await nested",
+                  "fullTitle": "User use async await #save() with the await nested",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const data = new Uint8Array(Buffer.from('Hello Node.js'));\nvar user = new User('Luna');\nconst result = await user.save_with_promise(data);\n  assert.strictEqual(result, \"file saved\");",
+                  "err": {},
+                  "uuid": "5e433d17-1c0f-4e6f-88f0-10fc7ddf8f67",
+                  "parentUUID": "db3dfd66-5674-4aea-93be-a01fcf5730b8",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "5e433d17-1c0f-4e6f-88f0-10fc7ddf8f67"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "c7b77093-671a-43fe-a1c5-c79d4be7c67d",
+              "title": "mocha hooks",
+              "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+              "file": "\\simple-test.js",
+              "beforeHooks": [
+                {
+                  "title": "\"before all\" hook",
+                  "fullTitle": "User mocha hooks \"before all\" hook",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": null,
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// runs once before the first test in this block",
+                  "err": {},
+                  "uuid": "6dc44936-9def-483b-99ea-9e9cc6e43e5d",
+                  "parentUUID": null,
+                  "isHook": true,
+                  "skipped": false
+                },
+                {
+                  "title": "\"before each\" hook",
+                  "fullTitle": "User mocha hooks \"before each\" hook",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": null,
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// runs before each test in this block\ndb.clear(function(err) {\n  if (err) return done(err);\n});",
+                  "err": {},
+                  "uuid": "6567c99b-707d-45b6-8895-a90bdccc5cc5",
+                  "parentUUID": null,
+                  "isHook": true,
+                  "skipped": false
+                }
+              ],
+              "afterHooks": [
+                {
+                  "title": "\"after all\" hook",
+                  "fullTitle": "User mocha hooks \"after all\" hook",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": null,
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// runs once after the last test in this block",
+                  "err": {},
+                  "uuid": "8f10a23a-e63a-40b8-8ddb-8a23b79f5a56",
+                  "parentUUID": null,
+                  "isHook": true,
+                  "skipped": false
+                },
+                {
+                  "title": "\"after each\" hook: cleanup the Arranges",
+                  "fullTitle": "User mocha hooks \"after each\" hook: cleanup the Arranges",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": null,
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// runs after each test in this block",
+                  "err": {},
+                  "uuid": "4a2d98a9-a541-42ea-b20e-539858d0b5c6",
+                  "parentUUID": null,
+                  "isHook": true,
+                  "skipped": false
+                }
+              ],
+              "tests": [],
+              "suites": [],
+              "passes": [],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "a79cd608-5249-4e7f-a5ac-1b647bbd779c",
+              "title": "find highest number in array",
+              "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+              "file": "\\simple-test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [],
+              "suites": [
+                {
+                  "uuid": "957b39b5-287e-4260-ab21-7da592e1f911",
+                  "title": "looking at the boundary conditions",
+                  "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+                  "file": "\\simple-test.js",
+                  "beforeHooks": [],
+                  "afterHooks": [],
+                  "tests": [
+                    {
+                      "title": "no values passed in, should throw an exception",
+                      "fullTitle": "User find highest number in array looking at the boundary conditions no values passed in, should throw an exception",
+                      "timedOut": false,
+                      "duration": 0,
+                      "state": "pending",
+                      "speed": null,
+                      "pass": false,
+                      "fail": false,
+                      "pending": true,
+                      "context": null,
+                      "code": "",
+                      "err": {},
+                      "uuid": "927e68c3-60c0-4d16-b4f8-80053b90b440",
+                      "parentUUID": "957b39b5-287e-4260-ab21-7da592e1f911",
+                      "isHook": false,
+                      "skipped": false
+                    }
+                  ],
+                  "suites": [],
+                  "passes": [],
+                  "failures": [],
+                  "pending": [
+                    "927e68c3-60c0-4d16-b4f8-80053b90b440"
+                  ],
+                  "skipped": [],
+                  "duration": 0,
+                  "root": false,
+                  "rootEmpty": false,
+                  "_timeout": 2000
+                }
+              ],
+              "passes": [],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "3f9b3f01-5bda-4f88-916a-3cb754e74f90",
+              "title": "Test timings",
+              "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+              "file": "\\simple-test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [],
+              "suites": [
+                {
+                  "uuid": "879afade-1c54-48c5-bcb6-6b2b4649a137",
+                  "title": "Running a slow test",
+                  "fullFile": "C:\\work\\git\\nodejs-rxjs\\mocha\\basics\\simple-test.js",
+                  "file": "\\simple-test.js",
+                  "beforeHooks": [],
+                  "afterHooks": [],
+                  "tests": [
+                    {
+                      "title": "This is slow",
+                      "fullTitle": "User Test timings Running a slow test This is slow",
+                      "timedOut": false,
+                      "duration": 0,
+                      "state": "pending",
+                      "speed": null,
+                      "pass": false,
+                      "fail": false,
+                      "pending": true,
+                      "context": null,
+                      "code": "",
+                      "err": {},
+                      "uuid": "97eba576-f257-4ac3-84ea-fc20537aa860",
+                      "parentUUID": "879afade-1c54-48c5-bcb6-6b2b4649a137",
+                      "isHook": false,
+                      "skipped": false
+                    }
+                  ],
+                  "suites": [],
+                  "passes": [],
+                  "failures": [],
+                  "pending": [
+                    "97eba576-f257-4ac3-84ea-fc20537aa860"
+                  ],
+                  "skipped": [],
+                  "duration": 0,
+                  "root": false,
+                  "rootEmpty": false,
+                  "_timeout": 2000
+                }
+              ],
+              "passes": [],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}
